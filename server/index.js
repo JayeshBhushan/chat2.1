@@ -52,7 +52,7 @@ io.on("connection", (socket) => {
 
 app.use(function (req, res, next) {
 
-  res.header('Access-Control-Allow-Origin', process.env.ORIGIN);
+  res.header('Access-Control-Allow-Origin', "https://chatapp-3d392.web.app/");
   res.header('Access-Control-Allow-Headers', true);
   res.header('Access-Control-Allow-Credentials', true);
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
